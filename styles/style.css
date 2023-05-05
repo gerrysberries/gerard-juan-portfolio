@@ -9,7 +9,9 @@ img {
   height: auto;
 }
 
-/*
+h1 {
+  color: black;
+} /*
   1. Use a more-intuitive box-sizing model.
 */
 *,
