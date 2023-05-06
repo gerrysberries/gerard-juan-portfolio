@@ -1,7 +1,7 @@
 @use 'variables' as *;
 
 .header-nav {
-	font-family: $ff-heading;
+	font-family: $ff-primary;
 	font-size: $fs-500;
 	color: $text-light;
 	padding-top: 1rem;
@@ -12,7 +12,8 @@
 	justify-content: space-between;
 	width: 60%;
 	margin: 0 auto;
-	li:hover {
+	li:hover,
+	li:focus {
 		text-decoration: underline;
 	}
 }
