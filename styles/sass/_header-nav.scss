@@ -1,0 +1,18 @@
+@use 'variables' as *;
+
+.header-nav {
+	font-family: $ff-heading;
+	font-size: $fs-500;
+	color: $text-light;
+	padding-top: 1rem;
+}
+
+.nav-links {
+	display: flex;
+	justify-content: space-between;
+	width: 60%;
+	margin: 0 auto;
+	li:hover {
+		text-decoration: underline;
+	}
+}

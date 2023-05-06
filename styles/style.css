@@ -9,6 +9,11 @@ img {
   height: auto;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 ul {
   padding: 0;
 }
@@ -17,9 +22,33 @@ li {
   list-style-type: none;
 }
 
-h1 {
-  color: black;
-} /*
+.header-nav {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.5rem;
+  color: hsl(0, 0%, 100%);
+  padding-top: 1rem;
+}
+
+.nav-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 60%;
+  margin: 0 auto;
+}
+.nav-links li:hover {
+  text-decoration: underline;
+}
+
+header {
+  background: center/cover no-repeat url(../assets/hero-bg.jpg);
+  color: hsl(0, 0%, 100%);
+}
+
+/*
   1. Use a more-intuitive box-sizing model.
 */
 *,
