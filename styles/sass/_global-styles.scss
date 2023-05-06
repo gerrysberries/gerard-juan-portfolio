@@ -1,10 +1,23 @@
 .wrapper {
-	max-width: 800px;
-	width: 100%;
+	max-width: 1280px;
+	width: 80%;
 	margin: 0 auto;
 }
 
 img {
 	max-width: 100%;
 	height: auto;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+ul {
+	padding: 0;
+}
+
+li {
+	list-style-type: none;
 }
