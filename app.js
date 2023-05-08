@@ -10,5 +10,6 @@ form.addEventListener('submit', (e) => {
 
 	// reset form fields
 	form.reset();
+	form.action = 'https://formspree.io/f/xoqzrzay';
 	nameInput.focus();
 });
