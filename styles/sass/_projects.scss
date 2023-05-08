@@ -1,9 +1,5 @@
 @use 'variables' as *;
 
-// .projects * {
-// 	outline: 1px solid blue;
-// }
-
 .projects {
 	background-color: $bg-projects;
 	font-family: $ff-primary;
@@ -13,6 +9,9 @@
 		font-weight: $fw-700;
 		text-align: center;
 		line-height: 1;
+	}
+	.btn:first-of-type {
+		margin-right: 16px;
 	}
 }
 
@@ -30,7 +29,7 @@
 	display: flex;
 	justify-content: space-between;
 	gap: 32px;
-	border-bottom: 2px solid $text-light;
+	border-bottom: 4px solid $text-light;
 	padding: 32px;
 	line-height: 2;
 	> * {
@@ -58,7 +57,8 @@
 		font-size: $fs-400;
 		line-height: 1.5;
 	}
-	& .btn:first-of-type {
-		margin-right: 16px;
-	}
+}
+
+.project-img-container {
+	flex: 40%;
 }

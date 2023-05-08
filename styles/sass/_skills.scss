@@ -24,7 +24,7 @@
 		align-items: center;
 		gap: 2rem;
 		li {
-			min-height: 100px;
+			min-width: 100px;
 			flex: 1 0 20%;
 		}
 		span {
@@ -33,11 +33,12 @@
 			letter-spacing: 0.25rem;
 		}
 	}
-}
-
-svg {
-	width: 100%;
-	height: 100px;
-	fill: $text-light;
-	// stroke: white;
+	svg {
+		width: 100%;
+		height: 100px;
+		fill: $text-light;
+	}
+	path {
+		fill: $text-light;
+	}
 }
