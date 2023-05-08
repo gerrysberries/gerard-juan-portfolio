@@ -1,7 +1,7 @@
 @use 'variables' as *;
 
 .contact {
-	padding: 64px 0;
+	padding: 48px 0;
 	color: $text-dark;
 	background-color: $bg-contact;
 	text-align: center;
@@ -26,7 +26,14 @@
 	display: flex;
 	gap: 16px;
 	justify-content: center;
-	align-items: center;
+	align-items: flex-end;
+	svg {
+		width: 24px;
+		height: auto;
+		&:hover {
+			fill: $text-accent;
+		}
+	}
 }
 
 .input-container {

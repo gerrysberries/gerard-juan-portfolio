@@ -19,7 +19,7 @@
   gap: 1rem;
   max-width: max(40%, 288px);
   text-align: center;
-  padding: 5rem 0;
+  padding: 48px 0;
 }
 .wrapper.about-wrapper img {
   width: 300px;
@@ -54,7 +54,7 @@
 }
 
 .contact {
-  padding: 64px 0;
+  padding: 48px 0;
   color: hsl(328, 48%, 5%);
   background-color: hsl(90, 27%, 71%);
   text-align: center;
@@ -88,9 +88,16 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+.social-links svg {
+  width: 24px;
+  height: auto;
+}
+.social-links svg:hover {
+  fill: hsl(145, 26%, 29%);
 }
 
 .input-container {
@@ -206,6 +213,10 @@ header {
   padding-bottom: 0.75rem;
 }
 
+.projects * {
+  outline: 1px solid blue;
+}
+
 .projects {
   background-color: #f7f3f2;
   font-family: "Roboto Condensed", sans-serif;
@@ -215,9 +226,10 @@ header {
   font-size: 3.375rem;
   font-weight: 700;
   text-align: center;
+  line-height: 1;
 }
 
-projects-wrapper {
+.projects-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -225,6 +237,11 @@ projects-wrapper {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  padding: 48px 0;
+}
+.projects-wrapper > :last-of-type {
+  border-bottom: none;
+  padding-bottom: 0;
 }
 
 .project-container {
@@ -237,10 +254,43 @@ projects-wrapper {
   gap: 32px;
   border-bottom: 2px solid hsl(0, 0%, 100%);
   padding: 32px;
+  line-height: 2;
 }
 .project-container > * {
   -ms-flex-preferred-size: calc(50% - 2rem);
       flex-basis: calc(50% - 2rem);
+}
+
+.project-text-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 1rem;
+}
+.project-text-container h3 {
+  font-size: 2.25rem;
+  line-height: 1;
+  text-transform: uppercase;
+}
+.project-text-container p:first-of-type {
+  color: hsl(145, 26%, 29%);
+  font-size: 1rem;
+  font-weight: 700;
+}
+.project-text-container p:last-of-type {
+  font-family: "Lora", serif;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.project-text-container .btn:first-of-type {
+  margin-right: 16px;
 }
 
 /*
