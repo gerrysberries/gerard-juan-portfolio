@@ -1,0 +1,8 @@
+@use 'variables' as *;
+
+.footer {
+	font-family: $ff-primary;
+	color: $text-light;
+	background-color: $bg-footer;
+	text-align: center;
+}
