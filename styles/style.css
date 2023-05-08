@@ -213,10 +213,6 @@ header {
   padding-bottom: 0.75rem;
 }
 
-.projects * {
-  outline: 1px solid blue;
-}
-
 .projects {
   background-color: #f7f3f2;
   font-family: "Roboto Condensed", sans-serif;
