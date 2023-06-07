@@ -40,11 +40,14 @@
 }
 
 .btn {
+  display: inline-block;
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 700;
+  text-align: center;
   color: hsl(328, 48%, 5%);
   background-color: hsl(0, 48%, 73%);
-  padding: 0.5rem 2.5rem;
+  padding: 0.5rem 0;
+  width: 135px;
   -webkit-transition: color 100ms ease;
   transition: color 100ms ease;
 }
@@ -211,6 +214,9 @@ header {
   font-family: "Lora", serif;
   font-size: 1.5rem;
   padding-bottom: 0.75rem;
+  text-align: center;
+}
+.hero .btn {
   text-align: center;
 }
 
