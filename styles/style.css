@@ -223,7 +223,7 @@ header {
     width: 80%;
   }
   .wrapper.about-wrapper {
-    width: 80%;
+    width: 95%;
   }
   .projects .projects-wrapper {
     width: 90%;
@@ -237,6 +237,7 @@ header {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    padding: 0;
   }
   .project-container:nth-of-type(2n) .project-text-container {
     -webkit-box-ordinal-group: 2;
@@ -250,7 +251,7 @@ header {
         align-self: center;
   }
   .contact .contact-wrapper {
-    width: 80%;
+    width: 95%;
   }
 }
 @media (max-width: 550px) {

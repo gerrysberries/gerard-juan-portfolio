@@ -11,7 +11,7 @@
 	}
 
 	.wrapper.about-wrapper {
-		width: 80%;
+		width: 95%;
 	}
 
 	.projects {
@@ -26,6 +26,7 @@
 
 	.project-container {
 		flex-direction: column;
+		padding: 0;
 		&:nth-of-type(2n) .project-text-container {
 			order: 1;
 		}
@@ -37,7 +38,7 @@
 	}
 
 	.contact .contact-wrapper {
-		width: 80%;
+		width: 95%;
 	}
 }
 
