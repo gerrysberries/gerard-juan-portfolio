@@ -1,0 +1,64 @@
+@use 'variables' as *;
+
+.projects {
+	background-color: $bg-projects;
+	font-family: $ff-primary;
+	color: $text-dark;
+	h2 {
+		font-size: $fs-700;
+		font-weight: $fw-700;
+		text-align: center;
+		line-height: 1;
+	}
+	.btn:first-of-type {
+		margin-right: 16px;
+	}
+}
+
+.projects-wrapper {
+	display: flex;
+	flex-direction: column;
+	padding: 48px 0;
+	> :last-of-type {
+		border-bottom: none;
+		padding-bottom: 0;
+	}
+}
+
+.project-container {
+	display: flex;
+	justify-content: space-between;
+	gap: 32px;
+	border-bottom: 4px solid $text-light;
+	padding: 32px;
+	line-height: 2;
+	> * {
+		flex-basis: calc(50% - 2rem);
+	}
+}
+
+.project-text-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 1rem;
+	h3 {
+		font-size: $fs-600;
+		line-height: 1;
+		text-transform: uppercase;
+	}
+	& p:first-of-type {
+		color: $text-accent;
+		font-size: $fs-400;
+		font-weight: $fw-700;
+	}
+	& p:last-of-type {
+		font-family: $ff-secondary;
+		font-size: $fs-400;
+		line-height: 1.5;
+	}
+}
+
+.project-img-container {
+	flex: 40%;
+}

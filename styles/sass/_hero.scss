@@ -1,0 +1,28 @@
+@use 'variables' as *;
+
+header {
+	background: center / cover no-repeat url(../assets/hero-bg.jpg);
+	color: $text-light;
+}
+
+.hero {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: min(80vh, 500px);
+	h1 {
+		font-family: $ff-primary;
+		font-size: $fs-900;
+		font-weight: $fw-700;
+		letter-spacing: 0.5rem;
+		line-height: 1;
+		text-align: center;
+	}
+	p {
+		font-family: $ff-secondary;
+		font-size: $fs-500;
+		padding-bottom: 0.75rem;
+		text-align: center;
+	}
+}
