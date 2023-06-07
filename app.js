@@ -4,7 +4,7 @@ const emailInput = document.querySelector('#email');
 const messageInput = document.querySelector('#message');
 
 form.addEventListener('submit', e => {
-	// e.preventDefault();
+	e.preventDefault();
 
 	// code to submit form data here
 
